@@ -358,7 +358,6 @@ class Custom_Table_Example_List_Table extends WP_List_Table
         $this->set_pagination_args(array(
             'total_items' => $total_items, // total items defined above
             'per_page' => $per_page, // per page constant defined at top of method
-            'total_pages' => ceil($total_items / $per_page) // calculate pages count
         ));
     }
 }
